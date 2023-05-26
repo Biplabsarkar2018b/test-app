@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar-link{
+    @apply flex items-center no-underline rounded-full p-2 hover:bg-blue-800 hover:text-white
+}
+
+.sidebar-icon{
+    @apply w-5 h-5 mr-2
+}
